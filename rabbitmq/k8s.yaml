@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: joindevops/rabbitmq:v1
+        image: teja142/rabbitmq:roboshop
         volumeMounts:
         - name: rabbitmq-data
           mountPath: /var/lib/rabbitmq

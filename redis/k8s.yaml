@@ -63,7 +63,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: joindevops/redis:v1
+        image: teja142/redis:roboshop
         volumeMounts:
         - name: redis-data
           mountPath: /data
